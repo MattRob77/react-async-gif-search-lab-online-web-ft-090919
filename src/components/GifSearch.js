@@ -10,6 +10,6 @@ export default class GifSearch  extends Component {
     this.setState({term: e.target.value})
   }
   onSearch = e => {
-    this.setState({term: e.target.value})
+    this.setState({term: e.target.term})
   }
 }

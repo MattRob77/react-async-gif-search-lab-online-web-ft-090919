@@ -7,6 +7,6 @@ export default class GifSearch  extends Component {
   }
   
   handleInput = e => {
-    
+    this.set.state
   }
 }

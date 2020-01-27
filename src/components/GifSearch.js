@@ -9,4 +9,7 @@ export default class GifSearch  extends Component {
   handleInput = e => {
     this.setState({term: e.target.value})
   }
+  onSearch = e => {
+    this.setState({term: e.target.value})
+  }
 }

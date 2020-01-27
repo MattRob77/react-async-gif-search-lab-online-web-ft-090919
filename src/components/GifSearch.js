@@ -19,14 +19,14 @@ export default class GifSearch extends Component {
 
   render() {
     return (
-      <div>
-        <form onSubmit={(e) => this.onSearch(e)}>
-          <label htmlFor='search'>Enter a Searh Term</label>
-          <input type='text' value={this.state.term} onChange={e => this.handleInput(e)} id="search"></input>
-          <button>Find Gifs</button>
-        </form>
-      </div>
+    <div>
+      <form onSubmit={(e) => this.onSearch(e)}>
+        <label htmlFor='search'>Enter a Searh Term</label>
+        <input type='text' value={this.state.term} onChange={e =>
+        this.handleInput(e)} id="search"></input>
+        <button>Find Gifs</button>
+      </form>
+    </div>
     );
   }
-
 }

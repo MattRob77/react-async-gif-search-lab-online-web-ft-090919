@@ -6,5 +6,5 @@ export default class GifSearch  extends Component {
     term: ''
   }
   
-  handleInput()
+  handleInput = 
 }
